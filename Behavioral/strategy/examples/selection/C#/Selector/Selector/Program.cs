@@ -27,7 +27,7 @@ namespace Selector
             PrintSelectedElements(sourceList, new OddNumbersSelector());
 
             Console.WriteLine("Selecting numbers in range [1, 20]");
-            PrintSelectedElements(sourceList, new NumbersFormRangeSelector(1,20));
+            PrintSelectedElements(sourceList, new NumbersFormRangeSelector(1, 20));
         }
     }
 }

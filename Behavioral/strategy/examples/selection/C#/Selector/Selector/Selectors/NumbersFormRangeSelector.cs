@@ -26,6 +26,9 @@ namespace Selector.Selectors
                 if (sourceEnumerator.Current >= RangeStart && sourceEnumerator.Current <= RangeEnd)
                     yield return sourceEnumerator.Current;
             }
+
+            // Or using Linq
+            //return source.Where(el => el >= RangeStart && el <= RangeEnd);
         }
     }
 }

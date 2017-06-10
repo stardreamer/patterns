@@ -15,6 +15,9 @@ namespace Selector.Selectors
                     continue;
                 yield return sourceEnumerator.Current;
             }
+
+            // Or using Linq
+            //return source.Where(el => el % 2 != 0);
         }
     }
 }

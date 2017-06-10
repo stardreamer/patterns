@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Selector.Selectors
 {
@@ -14,6 +12,9 @@ namespace Selector.Selectors
                 if (sourceEnumerator.Current % 2 == 0)
                     yield return sourceEnumerator.Current;
             }
+
+            // Or using Linq
+            //return source.Where(el => el % 2 == 0);
         }
     }
 }

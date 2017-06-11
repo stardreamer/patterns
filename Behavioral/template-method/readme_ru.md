@@ -19,7 +19,7 @@
 
 Ниже представлена UML-диаграмма данного паттерна.
 
-![stragUml](/content/images/2017/06/Strategy_Pattern_in_UML.png)
+![stragUml](https://couthyblog.xyz/content/images/2017/06/Template_Method_UML_class_diagram-1.svg)
 
 <a name="examples"></a>
 

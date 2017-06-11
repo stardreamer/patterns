@@ -33,7 +33,7 @@
 
 **Реализации**
 <a name="selectorcsharpexample"></a><details>
-<summary>**C#**</summary>
+<summary>C#</summary>
 
 Определим интерфейс для стратегии выбора элемента.
 ```csharp
@@ -143,7 +143,7 @@ class Program
 ```
 </details>
 <a name="selectorpythonexample"></a><details>
-<summary>**Python**</summary>
+<summary>Python</summary>
 
 Определим базовый класс для стратегии выбора элемента.
 ```python
@@ -219,7 +219,7 @@ print_selected_elements(sourceList, NumbersFormRangeSelector(1, 20))
 </details>
 
 <a name="selectorcexample"></a><details>
-<summary>**C**</summary>
+<summary>C</summary>
 
 Определим тип для стратегии выбора элемента. Получается, конечно, не так изящно - приходится задавать самый общий случай и для выбора четных и нечетных чисел будет передаваться две неиспользуемые переменные. Есть ещё второй способ реализация паттерна стратегия с помощью изменения состояния<sup>[3](#myfootnote3)</sup>, но, на мой взгляд, текущий вариант всё же красивее.
 ```c
@@ -354,6 +354,9 @@ int main()
 Литература
 ---------------
 <a name="myfootnote1">[1]</a>: [Strategy pattern. From Wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern)
+
 <a name="myfootnote2">[2]</a>: _Тепляков С._ Паттерны проектирования на платформе .NET &ndash; СПб.: Питер, 2015. — 28-37 c. 
+
 <a name="myfootnote3">[3]</a>: [Patterns in C - Part 3: STRATEGY](http://www.adamtornhill.com/Patterns%20in%20C%203,%20STRATEGY.pdf)
+
 <a name="myfootnote4">[4]</a>: [Design Patterns: Elements of Reusable Object-Oriented Software](https://en.wikipedia.org/wiki/Design_Patterns)
